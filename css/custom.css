@@ -1,0 +1,173 @@
+﻿/*Products CSS*/
+.ProBrand {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.ProductName {
+    font-size: 13px;
+    line-height: 17px;
+    color: #000;
+    font-family: sans-serif;
+}
+
+.proPrice {
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.proOgPrice {
+    font-size: 13px;
+    line-height: 17px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.proPriceDiscount {
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: deeppink;
+}
+
+/*Product View CSS*/
+
+.ProNameView {
+    font-size: 20px;
+    line-height: 25px;
+    font-family: sans-serif;
+    color: #696e80;
+}
+
+.proOgPriceView {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.proPriceDiscountView {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: deeppink;
+}
+
+.proPriceView {
+    font-size: 14px;
+    line-height: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.divDet1 {
+    border-bottom: 1px dashed #ff6a00;
+    margin-bottom: 20px;
+}
+
+.h5Size {
+    font-weight: 600;
+}
+
+input[type=radio] {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.mainButton {
+    border-radius: 3px;
+    outline: 0;
+    margin-top: 10px;
+    min-height: 40px;
+    min-width: 108px;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #FF5722;
+    border: 1px solid #ff5722;
+    color: #fff;
+}
+/*Custom SignIn*/
+.SignIn {
+    background-color: #f8f9fa;
+    color: orange;
+    transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.Cart {
+    transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.SignUp {
+    transition-delay: .5s;
+    color: #007bff;
+    background-color: #f8f9fa;
+    transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.Cart:hover {
+    background-color: #007bff;
+    border:1px solid #007bff;
+    color: #f8f9fa;
+    transition-delay: .25s;
+}
+
+.SignUp:hover {
+    background-color: #007bff;
+    color: #f8f9fa;
+    transition-delay: .25s;
+}
+
+.SignIn:hover {
+    background-color: orange;
+    color: #f8f9fa;
+    transition-delay: .25s;
+}
+.priceGray {
+    font-size:15px;
+    font-family:sans-serif;
+    font-weight:600;
+    color:dimgray;
+}
+.priceGreen {
+    font-size:15px;
+    font-family:sans-serif;
+    font-weight:400;
+    color:#20bd99;
+}
+.proNameViewcart {
+    font-size:15px;
+    line-height:25px;
+    font-family:sans-serif;
+    font-weight:600;
+    color:#696e80;
+}
+
+.buyNowbtn {
+    border-radius: 3px;
+    outline: 0;
+    margin-top: 10px;
+    margin-bottom:20px;
+    min-height: 22px;
+    min-width: 100%;
+    padding:10px 15px;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #14cda8;
+    border: 1px solid #14cda8;
+    color: #fff;
+}
+.CartPdetails {
+    display: flex;
+    justify-content: space-between;
+}
